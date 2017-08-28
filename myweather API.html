@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Weather API Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="jQuery/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+<div id="background" class="img-responsive">
+<header>
+  <div class="container text-center"><h4>Local Weather App</h4></div>
+</header>
+  <main>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-4 col-sm-6 text-center currentTemp"><p class="curTempF"></p><p class="curTempC"></p></div>
+      <div class="col-md-1 col-sm-6 text-center"><figure><canvas id="icon-weather" width="64" height="64"></canvas></figure></div>
+      <div class="col-md-4"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg location info"></div>
+        <div class="col-sm-12 col-md-12 col-lg description info"></div>
+        <div class="col-sm-12 col-md-12 col-lg tempDiffrence info"><p class="tempScaleF"></p><p class="tempScaleC"></p></div>
+      </div>
+      <div class="row sizing">
+        <div class="col text-center"><button id="changeScale" class="btn btn-default">Click here to change temperature scale</button></div>
+      </div>
+    </div>
+    </main>
+</div>
+</body>
+</html>

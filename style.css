@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Hind');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+html, body{
+  margin: 0 auto;
+  height: 100%;
+}
+
+#background {
+  margin: 0 auto;
+ /* background: url('https://i.imgur.com/JBXBXCT.jpg') no-repeat; */
+  max-width: 100%;
+  background: no-repat;
+  min-height: 100%;
+}
+
+header{
+  padding-bottom: 3%;
+}
+
+header h4{
+  padding: 15px;
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 50px;
+  color: #fff;
+}
+
+.currentTemp{
+  font-family: 'Hind', sans-serif;
+  font-size: 40px;
+  float: left;
+  color: #fff;
+}
+
+.icon-weather {
+  float: right;
+}
+
+.info {
+  margin: 5px;
+  font-family: 'Hind', sans-serif;
+  padding: 10px 0px;
+  opacity: 0.8;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.location{
+  font-size: 35px;
+  line-height: 100px;
+}
+
+.description{
+  font-size: 35px;
+  line-height: 100px;
+}
+
+.tempDiffrence{
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
+.sizing {
+  padding: 80px 0px;
+}
+
+.col .btn {
+  opacity: 0.7;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.col .btn:hover {
+  opacity: 0.9;
+  background-color: #99ccff;
+  animation: slow;
+}
+
+.tempScaleC{
+  display: none;
+  margin: 0px;
+  padding: 20px 0px;
+}
+
+.tempScaleF{
+  margin: 0px;
+  padding: 20px 0px;
+}
+
+.curTempF {
+  line-height: 70px;
+}
+
+.curTempC {
+  display: none;
+  line-height: 70px;
+}
