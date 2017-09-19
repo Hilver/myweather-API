@@ -44,7 +44,8 @@ $.getJSON(weatherLink, function(data){
 
   switch(data.currently.summary){
      case "Clear":
-     skycons.add("icon-weather", "clear-day");       $("#background").css("background","url('http://e-gida.pl/wp-content/uploads/2017/06/clear-day.jpg')");
+     skycons.add("icon-weather", "clear-day");       
+      $("#background").css("background","url('http://e-gida.pl/wp-content/uploads/2017/06/clear-day.jpg')");
       break;
      case "Partly Cloudy":
       skycons.add("icon-weather", "partly-cloudy-day");
@@ -59,6 +60,10 @@ $.getJSON(weatherLink, function(data){
       $("#background").css("background","url('http://e-gida.pl/wp-content/uploads/2017/04/clouds-194840_1920.jpg')");
       break;
       case "Rain":
+      skycons.add("icon-weather", "rain");
+      $("#background").css("background","url('http://e-gida.pl/wp-content/uploads/2017/04/rainy-day-1831908_1920.jpg')");
+      break;
+      case "Light Rain":
       skycons.add("icon-weather", "rain");
       $("#background").css("background","url('http://e-gida.pl/wp-content/uploads/2017/04/rainy-day-1831908_1920.jpg')");
       break;
@@ -102,6 +107,10 @@ $.getJSON(weatherLink, function(data){
         $("#background").css("background","url('http://e-gida.pl/wp-content/uploads/2017/04/night-2069578_1920.jpg')");
       break;
       case "Rain":
+      skycons.add("icon-weather", "rain");
+        $("#background").css("background","url('http://e-gida.pl/wp-content/uploads/2017/04/night-777882_1920.jpg')");
+      break;
+      case "Light Rain":
       skycons.add("icon-weather", "rain");
         $("#background").css("background","url('http://e-gida.pl/wp-content/uploads/2017/04/night-777882_1920.jpg')");
       break;
